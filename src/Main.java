@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -13,6 +14,7 @@ public class Main {
                 }
             }
         }
+        Collections.sort(newList);
         System.out.println(newList);
     }
 }
